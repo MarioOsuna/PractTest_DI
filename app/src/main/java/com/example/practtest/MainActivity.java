@@ -29,28 +29,42 @@ public class MainActivity extends AppCompatActivity {
         EUDO.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 textViewResultado.setText(conversor.eurosADolares(editTextNum.getText().toString()));
+
             }
         });
         DO.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
                 textViewResultado.setText(conversor.dolaresAEuros(editTextNum.getText().toString()));
+
 
             }
         });
         EULI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
                 textViewResultado.setText(conversor.eurosALibras(editTextNum.getText().toString()));
+
             }
         });
         LI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
                 textViewResultado.setText(conversor.librasAEuros(editTextNum.getText().toString()));
+
 
             }
         });
+
     }
+
+
 }
